@@ -1,4 +1,4 @@
-package commons;
+package com.automation.commons;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -8,16 +8,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class DayTwo extends DayOne{
 
-    @Before
 
-    public void setup(){
-       createDriver();
-    }
 
 @Test
     public void login() throws InterruptedException {
@@ -52,27 +47,29 @@ public class DayTwo extends DayOne{
     System.out.println(productsPageTitle.getText());
 
     Assert.assertTrue("Not on the product page",productsPageTitle.isDisplayed());
+    //Assert.assertFalse("It is on the product page", productsPageTitle.isDisplayed());
     //Assert.assertTrue("Not on the product page",!productsPageTitle.isDisplayed());
+
+
 
     //ArrayList<WebElement> inventoryItemDescriptions = (ArrayList<WebElement>) driver.findElement(By.className("inventory_item_desc"));
     List<WebElement> inventoryItemDescriptions =  driver.findElements(By.className("inventory_item_desc"));
 
-    for(WebElement webElement:inventoryItemDescriptions){
-        System.out.println(webElement.getText());
-        System.out.println("##########################");
-
-    }
-
-
-
     List<WebElement> inventoryItemTitles = driver.findElements(By.className("inventory_item_name"));
 
-    for (int i = 0; i < inventoryItemDescriptions.size(); i++){
+    for (int i = 0; i < inventoryItemTitles.size(); i++){
         System.out.println(inventoryItemTitles.get(i).getText());
         System.out.println(inventoryItemDescriptions.get(i).getText());
 
         System.out.println("============================");
     }
+
+
+    //    for(WebElement webElement:inventoryItemDescriptions){
+//        System.out.println(webElement.getText());
+//        System.out.println("##########################");
+//
+//    }
 
 
     Thread.sleep(1000);
@@ -85,8 +82,17 @@ public class DayTwo extends DayOne{
 
 }
 
-@After
+
+    @Before
+
+    public void setup(){
+        createDriver("https://www.saucedemo.com/");
+    }
+
+
+    @After
     public void cleanUp(){
         quitDriver();
-}
+    }
+
 }
