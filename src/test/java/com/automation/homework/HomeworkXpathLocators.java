@@ -1,4 +1,4 @@
-package com.automation;
+package com.automation.homework;
 
 import com.automation.commons.DayOne;
 import org.junit.After;
@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Homework1 extends DayOne {
+public class HomeworkXpathLocators extends DayOne {
 
     WebDriver driver;
     @Before

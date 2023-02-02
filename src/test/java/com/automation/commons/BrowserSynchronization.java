@@ -21,7 +21,7 @@ public class BrowserSynchronization extends DayOne{
     @Test
     public void learnWaits() throws InterruptedException {
         WebDriver driver = getDriver();
-        WebDriverWait driverWait = new WebDriverWait(driver,Duration.ofSeconds(5));
+        WebDriverWait driverWait = new WebDriverWait(driver,Duration.ofSeconds(30));
 
         //We can find this element by:
         //xpath //button[@id='startStopButton']
@@ -44,7 +44,7 @@ public class BrowserSynchronization extends DayOne{
 
        //Thread.sleep(5000);
 
-        System.out.println(progressBar.getText());
+        System.out.println("from sout print" + progressBar.getText());
     }
 
 
