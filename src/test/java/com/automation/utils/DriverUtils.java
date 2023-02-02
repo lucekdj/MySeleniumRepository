@@ -1,12 +1,12 @@
-package com.automation.commons;
+package com.automation.utils;
 
-import com.automation.utils.DriverUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class DayOne extends DriverUtils {
+public class DriverUtils {
+
 
     private static WebDriver driver;
 

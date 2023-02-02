@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9879a9e4-5b79-4dbd-ab97-2e52964e7976" name="Changes" comment="Day2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Homework1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" afterDir="false" />
+    <list default="true" id="9879a9e4-5b79-4dbd-ab97-2e52964e7976" name="Changes" comment="Day-FileUploadClass-Tus31-2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/CommonMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/practice/Practice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/commons/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/commons/DayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,71 +57,55 @@
       <recent name="C:\Users\lucek\IdeaProjects\learn-selenium\src\test\java\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileUpload.learnFileUpload">
-    <configuration name="BrowserSynchronization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-selenium" />
+  <component name="RunManager" selected="JUnit.DropDowns.LearnDropdowns">
+    <configuration name="DropDowns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="commons.*" />
+          <option name="PATTERN" value="com.automation.commons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="commons" />
-      <option name="MAIN_CLASS_NAME" value="commons.BrowserSynchronization" />
+      <option name="PACKAGE_NAME" value="com.automation.commons" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.DropDowns" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrowserSynchronization.learnWaits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-selenium" />
+    <configuration name="DropDowns.LearnDropdowns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="commons.*" />
+          <option name="PATTERN" value="com.automation.commons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="commons" />
-      <option name="MAIN_CLASS_NAME" value="commons.BrowserSynchronization" />
-      <option name="METHOD_NAME" value="learnWaits" />
+      <option name="PACKAGE_NAME" value="com.automation.commons" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.DropDowns" />
+      <option name="METHOD_NAME" value="LearnDropdowns" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-selenium" />
+    <configuration name="Homework1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="commons.*" />
+          <option name="PATTERN" value="com.automation.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="commons" />
-      <option name="MAIN_CLASS_NAME" value="commons.FileUpload" />
+      <option name="PACKAGE_NAME" value="com.automation.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.homework.Homework1" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUpload.learnFileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="commons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="commons" />
-      <option name="MAIN_CLASS_NAME" value="commons.FileUpload" />
-      <option name="METHOD_NAME" value="learnFileUpload" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Homework1.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-selenium" />
+      <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.automation.homework.*" />
@@ -134,12 +120,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice1.practice1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.practice.Practice1" />
+      <option name="METHOD_NAME" value="practice1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileUpload.learnFileUpload" />
-        <item itemvalue="JUnit.FileUpload" />
-        <item itemvalue="JUnit.BrowserSynchronization.learnWaits" />
-        <item itemvalue="JUnit.BrowserSynchronization" />
+        <item itemvalue="JUnit.DropDowns.LearnDropdowns" />
+        <item itemvalue="JUnit.DropDowns" />
+        <item itemvalue="JUnit.Practice1.practice1" />
+        <item itemvalue="JUnit.Homework1" />
         <item itemvalue="JUnit.Homework1.login" />
       </list>
     </recent_temporary>
@@ -160,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674878127255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day-FileUploadClass-Tus31-2023">
+      <created>1675222743638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675222743638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,15 +185,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day2" />
+    <MESSAGE value="Day-FileUploadClass-Tus31-2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day-FileUploadClass-Tus31-2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java</url>
-          <line>11</line>
-          <properties class="com.automation.homework.commons.DayOne" method="createDriver">
+          <line>12</line>
+          <properties class="com.automation.commons.DayOne" method="createDriver">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -200,7 +210,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/automation/Homework1.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1.java</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

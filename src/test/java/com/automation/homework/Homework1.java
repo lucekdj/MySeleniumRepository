@@ -1,4 +1,4 @@
-package com.automation;
+package com.automation.homework;
 
 import com.automation.commons.DayOne;
 import org.junit.After;
