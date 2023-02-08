@@ -88,9 +88,6 @@ public class DayTwo extends DayOne{
 
         Thread.sleep(1000);
 
-        //driver.findElement(By.id("this id doesn't exist"));
-        //driver.quit();
-
 
 
 

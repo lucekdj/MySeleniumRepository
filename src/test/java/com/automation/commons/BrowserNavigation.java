@@ -17,22 +17,23 @@ public class BrowserNavigation extends CommonMethods{
 
        //get method will get to the website you want to work on
        driver.get("https://demoqa.com/upload-download");
+       Thread.sleep(2000);
 
        //driver.navigate().to(url) essentially opens up a different url in the same driver session
        //It is the equivalent of using the search bar to go from the current website to a different one
        driver.navigate().to("http://18.116.88.132:8080/bank/login");
-       Thread.sleep(3000);
+       Thread.sleep(2000);
 
        //driver.navigate().back(); will bring you to the original url you were on before going into a new page/link
        driver.navigate().back();
-       Thread.sleep(3000);
+       Thread.sleep(2000);
 
         //driver.navigate().forward(); does the opposite of the .back() method and will essentially undo the .back() method
        driver.navigate().forward();
 
        //driver.navigate().refresh(); Will refresh the current page
        driver.navigate().refresh();
-       Thread.sleep(3000);
+       Thread.sleep(2000);
 
 
    }
@@ -40,10 +41,10 @@ public class BrowserNavigation extends CommonMethods{
    @Test
    public void practice1() throws InterruptedException {
 
-       WebDriver driver = getDriver();
+      // WebDriver driver = getDriver();
 
        loginToSauceDemo();
-       Thread.sleep(3000);
+       Thread.sleep(2000);
 
 
    }

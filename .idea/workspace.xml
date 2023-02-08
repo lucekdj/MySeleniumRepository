@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9879a9e4-5b79-4dbd-ab97-2e52964e7976" name="Changes" comment="Friday Feb3-23&#10;AdvancedMouseInteractions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton.java" afterDir="false" />
+    <list default="true" id="9879a9e4-5b79-4dbd-ab97-2e52964e7976" name="Changes" comment="FFRIDAY">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingIframes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/LearnJavascriptExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework2PriceLowToHigh2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/HoverOverEachElement2_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/OrderPlacedSuccessScreen2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/practice/Practice2Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/HomeworkXpathLocators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/HomeworkXpathLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1XpathLocators1_27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton1_31.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +35,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0-sources.jar!/org/openqa/selenium/WebElement.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar!/org/openqa/selenium/remote/RemoteWebElement.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,10 +62,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/lucek/IdeaProjects/Yegor/learn-selenium-fall-2022",
+    "last_opened_file_path": "C:/Users/lucek/IdeaProjects/MyLearn-selenium",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,8 +74,8 @@
       <recent name="C:\Users\lucek\IdeaProjects\learn-selenium\src\test\java\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdvancedMouseInteractions.learnAdvanceMouseInterventions">
-    <configuration name="AdvancedMouseInteractions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HandlingIframes.learnNestedIframesHandling">
+    <configuration name="HandlingIframes.learnIframeHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
@@ -67,29 +84,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.commons" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedMouseInteractions.learnAdvanceMouseInterventions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyLearn-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.commons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.commons" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
-      <option name="METHOD_NAME" value="learnAdvanceMouseInterventions" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.HandlingIframes" />
+      <option name="METHOD_NAME" value="learnIframeHandling" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedMouseInteractions.learnAdvancedMouseInteractions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlingIframes.learnNestedIframesHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.commons" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
-      <option name="METHOD_NAME" value="learnAdvancedMouseInteractions" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.HandlingIframes" />
+      <option name="METHOD_NAME" value="learnNestedIframesHandling" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedMouseInteractions.learnDragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlingWindows.learnWindowHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
@@ -114,14 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.commons" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
-      <option name="METHOD_NAME" value="learnDragAndDrop" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.HandlingWindows" />
+      <option name="METHOD_NAME" value="learnWindowHandling" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedMouseInteractions.learnScroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlingWindows.windowHandlingExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyLearn-selenium" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +132,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.commons" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
-      <option name="METHOD_NAME" value="learnScroll" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.HandlingWindows" />
+      <option name="METHOD_NAME" value="windowHandlingExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice2Locators.fillTheForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.practice.Practice2Locators" />
+      <option name="METHOD_NAME" value="fillTheForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdvancedMouseInteractions.learnAdvanceMouseInterventions" />
-        <item itemvalue="JUnit.AdvancedMouseInteractions.learnScroll" />
-        <item itemvalue="JUnit.AdvancedMouseInteractions.learnDragAndDrop" />
-        <item itemvalue="JUnit.AdvancedMouseInteractions" />
-        <item itemvalue="JUnit.AdvancedMouseInteractions.learnAdvancedMouseInteractions" />
+        <item itemvalue="JUnit.HandlingIframes.learnNestedIframesHandling" />
+        <item itemvalue="JUnit.HandlingIframes.learnIframeHandling" />
+        <item itemvalue="JUnit.HandlingWindows.windowHandlingExample" />
+        <item itemvalue="JUnit.HandlingWindows.learnWindowHandling" />
+        <item itemvalue="JUnit.Practice2Locators.fillTheForm" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675307674203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Wednesday Feb1-23&#10;Navigation, dropDowns">
+      <created>1675483066722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675483066722</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Wednesday Feb1-23&#10;Navigation, dropDowns&#10;Friday AdvancedMouseInteractions">
+      <created>1675483104474</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675483104474</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,9 +233,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day2" />
     <MESSAGE value="Day-FileUploadClass-Tus31-2023" />
-    <MESSAGE value="Wednesday Feb1-23&#10;Navigation, dropDowns" />
     <MESSAGE value="Friday Feb3-23&#10;AdvancedMouseInteractions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Friday Feb3-23&#10;AdvancedMouseInteractions" />
+    <MESSAGE value="Wednesday Feb1-23&#10;Navigation, dropDowns" />
+    <MESSAGE value="Wednesday Feb1-23&#10;Navigation, dropDowns&#10;Friday AdvancedMouseInteractions" />
+    <MESSAGE value="FFRIDAY" />
+    <option name="LAST_COMMIT_MESSAGE" value="FFRIDAY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,7 +271,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java</url>
-          <line>77</line>
+          <line>76</line>
           <properties class="com.automation.commons.AdvancedMouseInteractions" method="learnDragAndDrop">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -253,10 +287,14 @@
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/automation/homework/HomeworkXpathLocators.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton1_31.java</url>
+          <line>20</line>
+          <properties class="com.automation.homework.StartResetButton1_31">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java</url>
@@ -269,8 +307,8 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton.java</url>
-          <line>15</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton1_31.java</url>
+          <line>16</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

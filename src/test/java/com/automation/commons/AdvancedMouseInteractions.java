@@ -47,10 +47,10 @@ public class AdvancedMouseInteractions extends CommonMethods{
         Thread.sleep(2000);
 
         //HOVERS
-        //here we are using the .moveToElement() method to essentially hover over a specific element
+
         driver.navigate().to("http://the-internet.herokuapp.com/hovers");
         Thread.sleep(1000);
-
+        //here we are using the .moveToElement() method to essentially hover over a specific element
         WebElement hoverIcon = driver.findElement(By.xpath("//div[@class='figure'][1]"));
         actions.moveToElement(hoverIcon).build().perform();
         Thread.sleep(2000);
@@ -68,7 +68,6 @@ public class AdvancedMouseInteractions extends CommonMethods{
         //this method will hold down ctrl key click and pick up
         actions.keyDown(Keys.COMMAND).click(viewProfileLink).keyUp(Keys.COMMAND).build().perform();
         Thread.sleep(2000);
-
 
 
     }

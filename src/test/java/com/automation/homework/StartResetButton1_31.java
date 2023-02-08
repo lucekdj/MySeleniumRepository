@@ -1,6 +1,6 @@
 package com.automation.homework;
 
-import com.automation.commons.DayOne;
+import com.automation.utils.DriverUtils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class StartResetButton extends DayOne {
+public class StartResetButton1_31 extends DriverUtils {
 
 
      @Test

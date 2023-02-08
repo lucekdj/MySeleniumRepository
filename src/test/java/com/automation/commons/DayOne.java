@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class DayOne extends DriverUtils {
+public class DayOne {
 
     private static WebDriver driver;
 

@@ -16,7 +16,7 @@ import java.time.Duration;
 
 public class BrowserSynchronization extends DayOne{
 
-
+   // implicitly - explicitly
 
     @Test
     public void learnWaits() throws InterruptedException {
@@ -31,12 +31,11 @@ public class BrowserSynchronization extends DayOne{
         // WebElement startButton = driver.findElement(By.id("startStopButton"));
         //WebElement startButton = driver.findElement(By.cssSelector("//button[@id='startStopButton']"));
         WebElement startButton = driver.findElement(By.xpath("//button[@id='startStopButton']"));
-
         WebElement progressBar = driver.findElement(By.cssSelector("#progressBar div.progress-bar"));
 
          startButton.click();
          String expectedValue = "100";
-
+        //explicitly
          driverWait.until(ExpectedConditions.textToBePresentInElement(progressBar,"100%"));
 
         //Assert.assertTrue("value does not expected", progressBar.getText().contains("100%"));
@@ -52,7 +51,6 @@ public class BrowserSynchronization extends DayOne{
     public void setup(){
         createDriver("https://demoqa.com/progress-bar");
     }
-
 
     @After
     public void cleanUp(){
