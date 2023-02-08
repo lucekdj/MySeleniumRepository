@@ -29,6 +29,9 @@ public class HandlingWindows extends CommonMethods{
         WebElement windowButton = driver.findElement(By.id("windowButton"));
         //WebElement windowButton = driver.findElement(By.cssSelector("#windowButton"));
 
+
+        //.getWindowHandle() returns the String window handle of the current window
+        //Here we are saving the window handle of the current window as a String variable so that we can return to it later
         String primaryWindow = driver.getWindowHandle();
 
         tabButton.click();
@@ -38,18 +41,24 @@ public class HandlingWindows extends CommonMethods{
         System.out.println(driver.getWindowHandles()); //  [CDwindow-1A7F718E6E989460F6C04FA77A78E44A - dynamic window handle
         Thread.sleep(3000);
 
+        //Here we are taking the return type Set<String> and casting it to an ArrayList<String> for easy access
         Set<String> windowSet = driver.getWindowHandles();
         ArrayList<String> windowList = new ArrayList<>(windowSet);
 
+
+        //Here we are creating a for each loop to cycle through the elements of the windows list and then we are
+        //making sure that the current window isn't the primary window we were originally in
         for (String windowHandle:windowSet){
-            Thread.sleep(3000);
             if (!windowHandle.equals(primaryWindow)){
-            driver.switchTo().window(windowHandle);
-            WebElement header = driver.findElement(By.tagName("h1"));
+                Thread.sleep(3000);
+
+                //Here we are switch to the current window that passed all above conditions
+                driver.switchTo().window(windowHandle);
+                WebElement header = driver.findElement(By.tagName("h1"));
                 System.out.println(header.getText());
                 System.out.println(windowHandle);
                 System.out.println(driver.getCurrentUrl());
-
+//This method is different from driver.quit() it closes the specific window that is currently active
                 driver.close();
 
             }
@@ -75,6 +84,9 @@ public class HandlingWindows extends CommonMethods{
 
         actions.keyDown(Keys.CONTROL).click(shopNewYogaBtn).keyUp(Keys.CONTROL).build().perform();
 
+
+        //Since driver.getWindowHandles() method returns a set of window handles we can pass it to the constructor
+        //of the arraylist which will cast it into an ArrayList
         ArrayList<String> windowList = new ArrayList<>(driver.getWindowHandles());
 
         for (String windowHandle: windowList){
@@ -90,6 +102,7 @@ public class HandlingWindows extends CommonMethods{
             }
         }
 
+        //Here on out we are in a new window
         WebElement category = driver.findElement(By.xpath("//li[@class='item category8']/strong"));
 
         Assert.assertTrue("Category does not match expected",
@@ -97,13 +110,16 @@ public class HandlingWindows extends CommonMethods{
 
         Thread.sleep(3000);
 
+        //Closing the current tab
         driver.close();
+        //Switching to the original window
         driver.switchTo().window(primaryWindow);
-        // don't need to initialize here because we are in the same window
+
+
+                  // don't need to initialize here because we are in the same window
         // shopNewYogaBtn = driver.findElement(By.xpath("//span[contains(text(),'Shop New Yoga')]"));
 
          Assert.assertTrue("Shop yoga button is not visible ", shopNewYogaBtn.isDisplayed());
-
 
          Thread.sleep(3000);
     }

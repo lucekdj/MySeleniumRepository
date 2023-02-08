@@ -27,16 +27,17 @@ public class LearnJavascriptExecution extends CommonMethods {
         jsExecutor.executeScript("window.scrollBy(0,500)");
         Thread.sleep(3000);
 
-
+        //Here we are retrieving the Y coordinate of the hotSellersTitle WebElement on the page
         int yPositionOfSellers = hotSellersTitle.getLocation().getY();
         jsExecutor.executeScript("window.scrollBy(0," + yPositionOfSellers + ")");
         Thread.sleep(3000);
 
-
+        //Here we are passing the y value of the hotSellersTitle position and concatenating it to the string script
         jsExecutor.executeScript("arguments[0].scrollIntoView(true);", hotSellersTitle);
+        //jsExecutor.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'})", hotSellersTitle);
+
         Thread.sleep(3000);
 
-        //jsExecutor.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'})", hotSellersTitle);
 
 
     }

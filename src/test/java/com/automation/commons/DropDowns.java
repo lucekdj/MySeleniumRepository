@@ -32,19 +32,25 @@ public class DropDowns extends CommonMethods{
 
         System.out.println("-------------------------");
         //Select class has a constructor with parameter WebElement therefore we need to pass an element to the class
-        // the element we pass it should be the dropdown we want to manipulate
+        //The element we pass it should be the dropdown we want to manipulate
         Select countriesDropdown = new Select(dropdown);
 
 
+        //countriesDropdown.getOptions() method returns a List<WebElement> of all the option tags that are children
+        //to the current select tag
         List<WebElement> optionList = countriesDropdown.getOptions();
 
+
+        // Cycling through a list of options created on line 31 and printing the text stored inside the tag and the
+        // attribute "value"
         for(WebElement option :optionList){
             //System.out.println(option.getText());
             System.out.println(option.getText() + "\t" + option.getAttribute("value"));
 
         }
 
-
+        //Select class has a lot of different methods that do various different things such as selecting a specific
+        //option in side of the select tag, returning a specific value, and etc
         //System.out.println(countriesDropdown.getOptions());
         countriesDropdown.selectByVisibleText("Bermuda");
         Thread.sleep(3000);

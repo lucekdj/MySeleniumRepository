@@ -29,12 +29,16 @@ public class AdvancedMouseInteractions extends CommonMethods{
         //In this cae we are calling double click method and passing an element we want ot click on.
         //We are then calling build method in order to build the actual sequence
         //And then the .perform() method which actually performs the actions
+        //actions.doubleClick(doubleClickBtn).build().perform();
+
+        //In this case we are performing the same double click but we are using the .moveToElement() method to first
+        //move the "mouse" to the element and then perform the double click
 
         actions.doubleClick(doubleClickBtn).build().perform();
 
         Thread.sleep(2000);
 
-        //The actions .contextClick() method will perform a right click/context click (synonym) on the
+        //The actions .contextClick() method will perform a right click/context click (synonyms) on the
         // WebElement that is passes as a parameter
         actions.contextClick(rightClickBtn).build().perform();
 
@@ -84,7 +88,8 @@ public class AdvancedMouseInteractions extends CommonMethods{
         WebElement draggable = driver.findElement(By.id("draggable"));
         WebElement droppable = driver.findElement(By.id("draggable"));
 
-
+        //dragAndDrop(WebElement, WebElement) method will drag the first parameter passed to the location of second
+        //parameter passed
         actions.dragAndDrop(draggable,droppable).build().perform();
 
         Thread.sleep(3000);
@@ -93,6 +98,8 @@ public class AdvancedMouseInteractions extends CommonMethods{
 
         WebElement slider = driver.findElement(By.xpath("//input[@type='range']"));
 
+
+        //dragAndDropBy(WebElement, xOffset, yOffset) method will drag the element by the given x and y offset
         actions.dragAndDropBy(slider, 80,0).build().perform();
 
         Thread.sleep(4000);
@@ -109,17 +116,19 @@ public class AdvancedMouseInteractions extends CommonMethods{
 
         driver.navigate().to("https://www.saucedemo.com/inventory.html");
         loginToSauceDemo();
-        WebElement footer =driver.findElement(By.className("footer_copy"));
+
+
+        WebElement sauceLabsOnesie = driver.findElement(By.xpath("//div[text()='Sauce Labs Onesie']"));
 
         //ScrollToElement() method will scroll to the WebElement passed as the parameter
-        actions.scrollToElement(footer).build().perform();
-        Thread.sleep(3000);
+        actions.scrollToElement(sauceLabsOnesie).build().perform();
+        Thread.sleep(2000);
 
         //Scroll by amount method will scroll by specified amount on the x and y axis
         actions.scrollByAmount(0,500).build().perform();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         actions.scrollByAmount(0,-300).build().perform();
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
 
 ////div[text()='Sauce Labs Onesie']

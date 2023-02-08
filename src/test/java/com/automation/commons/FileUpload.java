@@ -15,7 +15,7 @@ public class FileUpload extends DayOne{
         WebElement fileUploadInput = getDriver().findElement(By.cssSelector("#uploadFile"));
 
     fileUploadInput.sendKeys("c:/Users/lucek/Desktop/TestFile.txt");
-//"C:\Users\lucek\Desktop\TestFile.txt"
+    //"C:\Users\lucek\Desktop\TestFile.txt"
     Thread.sleep(5000);
 
     }

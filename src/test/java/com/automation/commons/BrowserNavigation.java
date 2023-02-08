@@ -38,16 +38,6 @@ public class BrowserNavigation extends CommonMethods{
 
    }
 
-   @Test
-   public void practice1() throws InterruptedException {
-
-      // WebDriver driver = getDriver();
-
-       loginToSauceDemo();
-       Thread.sleep(2000);
-
-
-   }
 
 
    @Before

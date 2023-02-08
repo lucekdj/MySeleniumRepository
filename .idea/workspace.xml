@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2760e39b-4e2a-4141-8588-335eaa3f2e92" name="Changes" comment="TueFeb7" />
+    <list default="true" id="2760e39b-4e2a-4141-8588-335eaa3f2e92" name="Changes" comment=" Tue Feb 7 after fix and merge ,added comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/LearnJavascriptExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/LearnJavascriptExecution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -21,7 +35,23 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="JUnit.HandlingWindows.learnWindowHandling">
+  <component name="RunManager" selected="JUnit.AdvancedMouseInteractions.learnScroll">
+    <configuration name="AdvancedMouseInteractions.learnScroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.commons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.commons" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
+      <option name="METHOD_NAME" value="learnScroll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DayOne.createDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyLearn-selenium" />
       <extension name="coverage">
@@ -56,12 +86,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdvancedMouseInteractions.learnScroll" />
         <item itemvalue="JUnit.HandlingWindows.learnWindowHandling" />
         <item itemvalue="JUnit.DayOne.createDriver" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary=" Tue Feb 7 after fix and merge">
+      <created>1675832659878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675832659878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +113,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Tue Feb 7 after fix and merge" />
+    <MESSAGE value=" Tue Feb 7 after fix and merge ,added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Tue Feb 7 after fix and merge ,added comments" />
   </component>
 </project>
