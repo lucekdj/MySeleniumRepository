@@ -1,15 +1,15 @@
 package com.automation.commons;
 
 import com.automation.utils.DriverUtils;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class DayOne {
+public class DayOne  {
 
     private static WebDriver driver;
-
     public  void createDriver(String url) {
         System.setProperty("webdriver.chrome.driver" , "src/test/java/driver/chromedriver.exe ");
 
