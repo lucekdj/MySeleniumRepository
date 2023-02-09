@@ -5,19 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2760e39b-4e2a-4141-8588-335eaa3f2e92" name="Changes" comment=" Tue Feb 7 after fix and merge ,added comments">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Iframe2_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/TestBaiat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/implementASignUpFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/switchToWindow2_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/practice/HomeWork6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/AdvancedMouseInteractions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserNavigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/BrowserSynchronization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/FileUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/LearnJavascriptExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/LearnJavascriptExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton1_31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/StartResetButton1_31.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -31,11 +37,25 @@
     <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0-sources.jar!/org/openqa/selenium/WebElement.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar!/org/openqa/selenium/remote/RemoteWebElement.class" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectId" id="2LSdl3a1UzmP6tEshs0X5Fp6pZp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="JUnit.AdvancedMouseInteractions.learnScroll">
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.StartResetButton1_31.startResetBtn">
     <configuration name="AdvancedMouseInteractions.learnScroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyLearn-selenium" />
       <extension name="coverage">
@@ -47,22 +67,6 @@
       <option name="PACKAGE_NAME" value="com.automation.commons" />
       <option name="MAIN_CLASS_NAME" value="com.automation.commons.AdvancedMouseInteractions" />
       <option name="METHOD_NAME" value="learnScroll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DayOne.createDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyLearn-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.commons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.commons" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.commons.DayOne" />
-      <option name="METHOD_NAME" value="createDriver" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,14 +88,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartResetButton1_31.startResetBtn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.homework.StartResetButton1_31" />
+      <option name="METHOD_NAME" value="startResetBtn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="switchToWindow2_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.homework.switchToWindow2_7" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="switchToWindow2_7.switchWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyLearn-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.homework.switchToWindow2_7" />
+      <option name="METHOD_NAME" value="switchWindow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StartResetButton1_31.startResetBtn" />
+        <item itemvalue="JUnit.switchToWindow2_7.switchWindow" />
+        <item itemvalue="JUnit.switchToWindow2_7" />
         <item itemvalue="JUnit.AdvancedMouseInteractions.learnScroll" />
         <item itemvalue="JUnit.HandlingWindows.learnWindowHandling" />
-        <item itemvalue="JUnit.DayOne.createDriver" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary=" Tue Feb 7 after fix and merge">
       <created>1675832659878</created>
@@ -100,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675832659878</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" Tue Feb 7 after fix and merge ,added comments">
+      <created>1675834480434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675834480434</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2760e39b-4e2a-4141-8588-335eaa3f2e92" name="Changes" comment=" Tue Feb 7 after fix and merge ,added comments" />
+      <created>1675868564764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675868564764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -42,7 +42,6 @@ public class StartResetButton1_31 extends DriverUtils {
      }
 
     @Before
-
     public void setup(){
         createDriver("https://www.timeanddate.com/timer/");
     }
