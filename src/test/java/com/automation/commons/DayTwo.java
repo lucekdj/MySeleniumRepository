@@ -18,7 +18,9 @@ public class DayTwo extends DayOne{
 
 @Test
     public void login() throws InterruptedException {
-    //createDriver();    method not needed because we create WebDriver on line 39
+    //createDriver();    method not needed because we call in Before and use method
+    //getDriver
+
     // to call method  we created   on day one class _getDriver_ what returns this method
     /*
     public  void createDriver(String url) {
@@ -34,10 +36,9 @@ public class DayTwo extends DayOne{
     // and using here on line 39 to call Web driver
     //-private static void  method -from class day one
 
-
+// create WebDriver  object on line 41 ???????????????
 
     WebDriver driver = getDriver();
-
         //colling login page elements
         WebElement usernameInput = driver.findElement(By.id("user-name"));
         WebElement passwordInput = driver.findElement(By.id("password"));

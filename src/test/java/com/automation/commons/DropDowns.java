@@ -15,9 +15,9 @@ public class DropDowns extends CommonMethods{
     @Test
     public void LearnDropdowns() throws InterruptedException {
 
-        WebDriver driver = getDriver();
+        WebDriver driver = getDriver(); // we renaming get driver to driver
 
-        driver.navigate().to("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
+        getDriver().navigate().to("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
         Thread.sleep(3000);
 
         WebElement dropdown = driver.findElement(By.xpath("//select"));

@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 
 public class Homework1XpathLocators1_27 extends DayOne {
 
-    WebDriver driver;
+    WebDriver dr;
     @Before
     public void setUp(){
        createDriver("https://www.saucedemo.com/");
@@ -20,11 +20,11 @@ public class Homework1XpathLocators1_27 extends DayOne {
 
     @Test
     public void login() throws InterruptedException {
-         driver = getDriver();
+        dr = getDriver();
 
-        WebElement usernameInput = driver.findElement(By.id("user-name"));
-        WebElement passwordInput = driver.findElement(By.id("password"));
-        WebElement loginButton = driver.findElement(By.id("login-button"));
+        WebElement usernameInput = dr.findElement(By.id("user-name"));
+        WebElement passwordInput = dr.findElement(By.id("password"));
+        WebElement loginButton = dr.findElement(By.id("login-button"));
 
         usernameInput.sendKeys("standard_user");
         Thread.sleep(1000);
@@ -33,26 +33,26 @@ public class Homework1XpathLocators1_27 extends DayOne {
 
 
 
-        WebElement productPage = driver.findElement(By.className("title"));
+        WebElement productPage = dr.findElement(By.className("title"));
         Assert.assertTrue("Product Page Not Displayed ", productPage.isDisplayed());
         System.out.println(productPage.getText());
         Thread.sleep(1000);
-        WebElement addToTheShoppingCart = driver.findElement(By.id("add-to-cart-sauce-labs-backpack"));
+        WebElement addToTheShoppingCart = dr.findElement(By.id("add-to-cart-sauce-labs-backpack"));
         System.out.println(addToTheShoppingCart.getText());
         Thread.sleep(500);
         addToTheShoppingCart.click();
         Thread.sleep(500);
-        WebElement shoppingCart = driver.findElement(By.className("shopping_cart_link"));
+        WebElement shoppingCart = dr.findElement(By.className("shopping_cart_link"));
         shoppingCart.click();
         Thread.sleep(500);
-        WebElement itemInTheShoppingCart = driver.findElement(By.className("inventory_item_name"));
+        WebElement itemInTheShoppingCart = dr.findElement(By.className("inventory_item_name"));
         Assert.assertTrue("item is not in the cart", itemInTheShoppingCart.isDisplayed());
         Thread.sleep(1000);
-        WebElement removeFromShoppingCart = driver.findElement(By.id("remove-sauce-labs-backpack"));
+        WebElement removeFromShoppingCart = dr.findElement(By.id("remove-sauce-labs-backpack"));
         removeFromShoppingCart.click();
         //Assert.assertTrue("item is not in the cart", removeFromShoppingCart.isDisplayed());
         Thread.sleep(2000);
-        WebElement continueShopping = driver.findElement(By.id("continue-shopping"));
+        WebElement continueShopping = dr.findElement(By.id("continue-shopping"));
         continueShopping.click();
         Thread.sleep(2000);
 

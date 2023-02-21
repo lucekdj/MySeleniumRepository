@@ -22,8 +22,10 @@ public class DriverUtils {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 
-        // driver.manage().window().maximize(); will maximize the window of the current driver session
-       // driver.manage().window().maximize();
+        // this method will maximize the window of the current driver session
+        driver.manage().window().maximize();
+
+        //driver.get("http://18.116.88.132:8080/bank/login");  // it was orgin
 
     }
     public void quitDriver(){

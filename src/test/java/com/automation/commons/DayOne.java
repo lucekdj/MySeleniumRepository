@@ -9,6 +9,7 @@ import java.time.Duration;
 
 public class DayOne  {
 
+//    to bylo w day 1 now is in driver utils
     private static WebDriver driver;
     public  void createDriver(String url) {
         System.setProperty("webdriver.chrome.driver" , "src/test/java/driver/chromedriver.exe ");
@@ -16,7 +17,6 @@ public class DayOne  {
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
         driver.manage().window().maximize();
 
     }
