@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2760e39b-4e2a-4141-8588-335eaa3f2e92" name="Changes" comment=" Thu Feb 9">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/Day1original.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/HandlingAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/JFakerLearning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Alerts2_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/BrainTwisterAdvance2_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/XpathLocatorsPractice1_30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/practice/AlertPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/practice/WebDriverPractice.java" afterDir="false" />
+    <list default="true" id="2760e39b-4e2a-4141-8588-335eaa3f2e92" name="Changes" comment=" Thu Feb 21 Fancy Report folder">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/NewSavingViewSaving2_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/SignUpFeature2_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/CommonMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DayTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/commons/DropDowns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1XpathLocators1_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework1XpathLocators1_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework2PriceLowToHigh2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Homework2PriceLowToHigh2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/Iframe2_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Iframe2_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/Alerts2_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/Alerts2_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/homework/BrainTwisterAdvance2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/homework/BrainTwisterAdvance2_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675977282743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" Thu Feb 21 Fancy Report folder">
+      <created>1676992691272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676992691272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +200,7 @@
     <MESSAGE value=" Tue Feb 7 after fix and merge" />
     <MESSAGE value=" Tue Feb 7 after fix and merge ,added comments" />
     <MESSAGE value=" Thu Feb 9" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Thu Feb 9" />
+    <MESSAGE value=" Thu Feb 21 Fancy Report folder" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Thu Feb 21 Fancy Report folder" />
   </component>
 </project>
